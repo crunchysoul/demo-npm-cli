@@ -1,0 +1,17 @@
+{
+  "name": "demo-npm-cli",
+  "version": "1.0.0",
+  "description": "create npm cli demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crunchysoul.joshua.chenzhao",
+  "license": "ISC",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.14.1"
+  }
+}
